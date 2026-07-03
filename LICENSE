@@ -1,0 +1,136 @@
+gn-voice - License
+==================
+
+This repository is distributed under a split license.
+
+  * Section A (MIT License) governs the software and the skill-definition
+    files - the reusable pipeline.
+  * Section B (Reserved Rights) governs the author's own literary works, the
+    detailed data derived from them, and the example outputs that reproduce
+    the author's style.
+
+Where a single file straddles the boundary (for example a personal genre
+pack), the skill-rule and structural text is governed by Section A, and the
+author's own writing quoted inside it remains governed by Section B.
+Public-domain quotations in wm-prose are not governed by Section B; see
+NOTICE Section 3.
+
+
+================================================================================
+SECTION A - MIT License (code and skill definitions)
+================================================================================
+
+Copyright (c) 2026 gn-voice authors
+
+This section applies to the following files and directories:
+
+  SKILL.md
+  README.md
+  install.sh
+  uninstall.sh
+  agents/                             (all agent definition files)
+  scripts/                            (all build and verification scripts)
+  references/voice-core.md
+  references/compose-core.md
+  references/ai-tells.json
+  references/fingerprint-slim.json
+  references/profiles/                (all files)
+  references/packs/wm-copy.md
+  references/packs/wm-sns.md
+  references/packs/wm-speech.md
+  references/packs/wm-expository.md
+  references/packs/wm-argumentative.md (override-cleaned; external quotations removed)
+  references/packs/wm-prose.md         (skill rules are MIT; public-domain quotations are noticed in NOTICE Section 3)
+  style-profile/                      (all files)
+  docs/                               (README art)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the software and associated documentation files enumerated above (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+SECTION B - Reserved Rights (저자 저작물 및 파생 데이터)
+================================================================================
+
+한국어 원문이 이 절의 정본입니다.
+(The Korean text below is the authoritative version of Section B. The English
+paragraph that follows is a non-binding summary.)
+
+적용 대상 (파일·디렉토리 경계)
+------------------------------
+
+  corpus/
+      저자의 공개 저작물 원문 전체. 하위의 모든 .md 원문과
+      corpus/manifest.jsonl, corpus/strip-rules.md 를 포함한다.
+
+  references/packs/chat.md
+  references/packs/reply.md
+  references/packs/lecture-tip.md
+  references/packs/promo.md
+  references/packs/lecture.md
+  references/packs/biz-s.md
+  references/packs/biz-l.md
+  references/packs/essay.md
+  references/packs/column.md
+      위 개인 장르 팩에 예문·문장으로 인용된 저자 본인 글에 한한다.
+      (팩의 스킬 규칙·구조 서술 텍스트는 Section A를 따른다.)
+
+  analysis/
+      analysis/ 하위의 저자 글 파생 데이터 일체. 대표적으로
+      analysis/quant/fingerprint-gn.json 을 포함한다.
+
+  examples/
+      저자 문체 재현을 위해 조립된 예시 입력, 재작성 완성본, 검증 보고 일체.
+      특히 examples/opus/ 하위 완성본은 저자 문체 재현 산출물이다.
+
+권리 유보와 이용 허가
+--------------------
+
+위 저작물의 모든 권리는 저자에게 유보된다 (All rights reserved). 저자는
+다음 범위에 한하여 이용을 허가한다.
+
+  허용
+      - 이 저장소를 열람하는 것.
+      - 파이프라인의 동작과 설계를 이해할 목적으로 개인적·비상업적으로
+        읽고 참고하는 것.
+
+  금지 (저자의 별도 서면 허락이 없는 한)
+      - (a) 원문 또는 그 실질적 일부의 복제·재배포·공개 게시.
+      - (b) 2차적 저작물 작성, 번안, 개작.
+      - (c) 기계학습·언어모델의 학습·미세조정 등 모델 훈련 목적의 이용.
+      - (d) 상업적 이용.
+
+이 예외는 Section A의 MIT 허가에 우선한다. Section A로 라이선스된
+파이프라인을 이용해 corpus/ 를 이용자 본인의 글로 교체하여 스킬을 재구축·
+재배포하는 것은 자유이며 권장된다. 다만 그 경우 저장소에 넣는 글의 권리와
+책임은 전적으로 이용자에게 있고, 저자의 corpus/ 원문이나 위에 열거한
+파생 데이터와 예시 산출물을 그대로 둔 채 재배포하는 것은 위 금지 조항에
+해당한다.
+
+Summary (non-binding, English)
+------------------------------
+
+The author's own writings collected under corpus/, the author-written example
+sentences quoted inside the nine personal genre packs listed above, all
+author-writing-derived data under analysis/ (including analysis/quant/
+fingerprint-gn.json), and the example materials under examples/ are All Rights
+Reserved. You may read and study them for personal, non-commercial
+understanding of the pipeline. You may not redistribute, adapt, use them to
+train machine-learning models, or use them commercially without the author's
+separate written permission. Replacing corpus/ with your own writing and
+reusing the Section A pipeline is expressly permitted.

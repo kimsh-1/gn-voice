@@ -1,0 +1,146 @@
+{
+ "meta": {
+  "basis": "train 822 + v4 low, 문두 매칭",
+  "rule": "hard=즉시 FAIL / capped=per-doc max 상한 / series=presence(0/1) / 상이 capped combo_limit종 초과 동반=FAIL"
+ },
+ "groups": [
+  {
+   "canon": "안녕하세요",
+   "variants": [
+    "안녕하세요"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "이번 글에서는",
+   "variants": [
+    "이번 글에서는",
+    "이 글에서는"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "알아보겠습니다",
+   "variants": [
+    "알아보겠습니다",
+    "알아볼게요",
+    "알아보죠"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "살펴보겠습니다",
+   "variants": [
+    "살펴보겠습니다",
+    "살펴볼게요",
+    "살펴보죠"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "결론적으로",
+   "variants": [
+    "결론적으로"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "요약하자면",
+   "variants": [
+    "요약하자면",
+    "요약하면"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "정리하면",
+   "variants": [
+    "정리하면",
+    "정리하자면",
+    "정리해보면"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "핵심은",
+   "variants": [
+    "핵심은"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "다음과 같습니다",
+   "variants": [
+    "다음과 같습니다"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "궁극적으로",
+   "variants": [
+    "궁극적으로"
+   ],
+   "match": "start"
+  },
+  {
+   "canon": "시사합니다",
+   "variants": [
+    "시사합니다",
+    "시사하는 바가"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "첫째둘째",
+   "variants": [
+    "첫째",
+    "둘째",
+    "셋째"
+   ],
+   "match": "start",
+   "series": true
+  },
+  {
+   "canon": "도움이 되셨다면",
+   "variants": [
+    "도움이 되셨다면",
+    "도움이 되었기를"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "놓치지 마세요",
+   "variants": [
+    "놓치지 마세요"
+   ],
+   "match": "contain"
+  },
+  {
+   "canon": "아무튼",
+   "variants": [
+    "아무튼"
+   ],
+   "match": "start"
+  }
+ ],
+ "hard": [
+  "알아보겠습니다",
+  "궁극적으로",
+  "도움이 되셨다면",
+  "놓치지 마세요"
+ ],
+ "capped": {
+  "안녕하세요": 1,
+  "이번 글에서는": 1,
+  "살펴보겠습니다": 1,
+  "결론적으로": 2,
+  "요약하자면": 1,
+  "정리하면": 1,
+  "핵심은": 3,
+  "다음과 같습니다": 2,
+  "시사합니다": 1,
+  "첫째둘째": 1,
+  "아무튼": 1
+ },
+ "combo_limit": 3
+}

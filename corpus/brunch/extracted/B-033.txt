@@ -1,0 +1,124 @@
+CFO가 말한 낮은 성장률
+아침에 일어나자 단톡방이 999개가 찍혀있었다.
+테슬라의 주가가 폭락하자 왜 그런가 에 대한 이야기가 계속 나왔고 이번 실적 발표가 어닝미스라는 말이 친구들 사이에서 나온 것이다.
+
+
+
+어닝미스라고도 하고 어닝서프라이즈라고도 하는 실적악화가 주가폭락을 가져왔다고 보는 것이 지배적인데
+오늘은 테슬라의 보고서와 발표를 보고 24년도의 전기차시장의 흐름을 한번 이야기해 보자
+
+핵심
+요약
+
+지금 보고 있는 자료는 테슬라에서 제공한 발표자료의 하이라이트 파트로 모델 Y는 23년도 120만 대 이상 팔리면서 전 세계에서 현금유동성동 우수하다는 식의 발표가 진행되었다.
+
+
+다만 YOY
+(
+Y
+ear on Year) 전년대비 증감률이 낮게 책정되었는데
+이 부분이 주가에 악영향을 가장 크게 끼친 부분이 아닐까 필자는 분석한다.
+
+
+사실 신규차량을 공개한 것도 아니고
+머스크가 몇 번 공헌한 3천만 원대의 전기차 또한 아직은 개발 중이라는 발표가 위처럼 나왔다.
+
+모델 2(3천만 원대 의 저가형 차량) 또한 25년 하반기에 생산할 것이라고 발표했고
+
+CFO 또한 이번연도는 연구에 집중한다고 발표했다.
+
+24년도 차량 가이던스(예상전망치) 도한도 제시하지 않은 것으로 보아 이번연도는 부스팅을 위한 쉬어가는 한 해가 될 것이라는 예측이 주를 이뤘다.  얼마 전 논란을 일으켰던
+옵티머스 또한 내년에 판매시작이라
+발표하였으며 아마 올해 말 발표가 가능할 것이라는 화두를 던지기는 하였다.
+
+또한 에너지스토리지 사업은 지속적인 성장을 보인다 발표했으며 발언을 조금 가져오자면
+
+Elon Musk
+:
+The energy storage business delivered nearly 15 gigawatt hours of batteries in 2023, compared to 6.5 gigawatt hours the year before. So, tremendous year-over-year growth, triple digits. And, yeah, I think we'll continue to -- continue to see very strong growth in -- in storage as -- as predicted. I said for many years that the storage business would grow much faster than the car business, and it is doing that.
+
+말은 많지만 결론적으로 125% 성장하고 있고 에너지저장사업이 훨씬 빠르게 성장할 것이라는 예상이 맞았다는 식으로 말을 하고 있다.
+
+아마
+테슬라가
+주력으로
+밀고 있는
+AI데이에 이번 연도 말에 뭔가 새로운 걸 보여주지 않을까 필자는 기대한다.
+
+중요 화두
+사실 머스크가 이번 발표에서 던진 가장 중요한 화두 중 흥미롭게 본 것들에 대해 몇 가지 소개해 보고자 한다.
+신경망으로 대체한 AI기술
+차세대 저가형 차량
+CFO가 말한 낮은 성장률
+
+신경망으로 대체한 AI기술
+
+Elon Musk
+:
+That's over 400,000 vehicles in North America. So, this is the first time AI is being used, not just for object perception, but for path planning and vehicle controls.
+We replaced 330,000 lines of C++ code with neural nets. It's really quite remarkable.
+Sort of as a side note,
+I think Tesla is probably the -- probably the most efficient company in the world for AI inference.
+Out of necessity, we've -- we've actually had to be extremely good at getting the most out of hardware because Hardware 3, at this point, is several years old. So, I don't I think we're -- we're quite far ahead of any other company in the world in terms of AI inference efficiency, which is going to be a very important metric in the future and in many arenas. So, see, the new Model 3 is now available globally.
+
+내용이 조금 복잡하지만 앞에 생략된 내용과 합쳐 말하면 FSD버전 12를 출시하였는데 33만 줄의 C++코드를 신경망으로 대체하여서 AI추론에서 가장 뛰어난 기업이라는 발언이 있다. 이러한
+추론기술이
+미래에
+새로운
+변곡점이
+될 수도 있다.라는 미래를 그리는 것 같고 흥미로운 화두라고 생각하지만 당장은 보여준 것이 없으니 25년을 기대해 보자
+
+또한 발언에서 기존모델들의 활용기술을 극한까지 끌어올려
+글로벌적인
+확장의지는
+보이지만
+이것이
+가능할지는
+조금 더 지켜봐야 할 것 같다.
+
+
+차세대 저가형 차량
+
+Elon Musk
+:
+And we're very far along on our
+next-generation low-cost vehicle
+. This is an earnings call, not a product announcement, so there not be many questions that try to ask us about new product new products coming. But we reserve product announcements for product announcements on our earnings calls. So -- but we're very excited about this.
+And this is really going to be profound, not just in the design of the vehicle itself, but in the design of the manufacturing system.
+This is a revolutionary manufacturing system, significant, you know, far more advanced than any other automotive manufacturing system in the world
+, like, by -- by a significant margin. Several years ago, I said the -- the -- the -- perhaps the most important competitive characteristic of Tesla in the future will be manufacturing technology. And you will really see that come to bear with our next-gen vehicle. The first manufacturing location for this will be at our Gigafactory and headquarters in Austin, Texas. And then, we'll follow that up with other locations around the world. Probably our -- the factory that will be built in Mexico will be second, and then we'll be looking to identify a third location, perhaps, by the end of this year or early next outside of North America.
+
+필자는 과거 테슬라의 기술에 대해 깊게 쓰고 있는 글이 있는데 이러한 생산기술과 공정기술이 완성되었고 개발에 진전이 보이고 있다는 발표 내용이 들어가 있다.
+
+또한 세계최고의 생산 시스템을 가져 최저가 차량을 생산하겠다는 발언 또한 꽤나 흥미로운데 생산기술은 필자의 다른 글을 참고해 주기를 바라고 3개의 공장에서 공격적인 저가모델생산이 어떠한 그림으로 25년에 다가올지는 꽤나 지켜볼만한 주제인 것 같다.
+
+CFO가 말한 낮은 성장률
+
+이는 문답시간 기자의 질문에 CFO(최고 재무 책임자)가 한 발언으로 통번역본을 한번 보자
+
+Martin Viecha :
+OK. Thank you. The next question is: Does the company anticipate a 50% volume CAGR to be realized in either 2024 or 2025? If not, why not?
+
+알겠습니다. 감사합니다. 다음 질문입니다 테슬라는
+2024년이나 2025년에 50%의 연간 평균 성장률(CAGR)을 달성할 것으로 예상합니까? 그렇지 않다면, 왜 그런 건가요?
+
+Vaibhav Taneja (CFO) :
+Yeah, as we've said in our prior guidance, there will be periods where we won't be growing at the same rate as before. We are between two major growth waves. The first one began with the global expansion of Model 3 and Y, and we believe the next one will be initiated with the next-generation platform. In 2024, our volume growth will be, you know, lower, as we have said, because we're trying to focus the team on the launch of the next-generation vehicle.
+
+바이바브 타네자(CFO): 네, 우리가 과거 발표한 가이드라인에서 말했듯이, 우리는
+이전처럼 같은 솓도로 성장하지 않을 기간이 있을 것
+입니다. 우리는 두 개의 주요 성장 파동 사이에 있습니다. 첫 번째는
+모델 3과 Y의 글로벌 확장
+으로 시작되었고, 우리는
+다음 것이 차세대 플랫폼으로 시작될 것이라고 믿습니다
+. 2024년에는 우리가 말했듯이,
+우리의 볼륨 성장은 더 낮아질 것입니다. 왜냐하면 우리는 팀을 차세대 차량 출시에 집중시키려고 하기 때문입니다.
+
+
+뭐 사실 위에 프리뷰에서 봤듯이. 이번연도는 새로운 것을 보여주기 위한 숨 고르기가 될 것이라 필자는 예상한다.
+
+테슬라 최고 경영자가 발표를 진행했고 과연 이 차세대 플롯폼과 저가형 차량이 어떤 방향으로 갈지
+이번 연도 말
+AI데이서는
+어떤 이야기를 할지
+필자와 함께 지켜보자
